@@ -8,8 +8,8 @@ function Home() {
         backgroundPosition: "center"
       }} className="d-flex align-items-center justify-content-center text-white text-center">
         <div>
-          <h1>Bonjour, je suis John Doe</h1>
-          <h2>Développeur web full stack</h2>
+          <h1 className="fw-bold">Bonjour, je suis John Doe</h1>
+          <h2 className="fw-bold">Développeur web full stack</h2>
           <button className="btn btn-danger mt-3">En savoir plus</button>
         </div>
       </section>
@@ -18,7 +18,7 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <h2>À propos</h2>
+              <h3 className="fw-bold">À propos</h3>
               <img src="/images/john-doe-about.jpg" alt="John Doe" className="img-fluid" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -26,7 +26,7 @@ function Home() {
             </div>
             
             <div className="col-md-6">
-              <h2>Mes compétences</h2>
+              <h3 className="fw-bold">Mes compétences</h3>
               <p>HTML5 90%</p>              
                 <div className="progress mb-3">
                   <div className="progress-bar bg-danger" style={{width: "90%"}}></div>
