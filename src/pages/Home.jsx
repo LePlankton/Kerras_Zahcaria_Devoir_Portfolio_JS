@@ -1,3 +1,5 @@
+import Modal from '../components/Modal'
+
 function Home() {
   return (
     <main>
@@ -10,7 +12,7 @@ function Home() {
         <div>
           <h1 className="fw-bold">Bonjour, je suis John Doe</h1>
           <h2 className="fw-bold">Développeur web full stack</h2>
-          <button className="btn btn-danger mt-3">En savoir plus</button>
+          <Modal />
         </div>
       </section>
 
